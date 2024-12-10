@@ -34,7 +34,6 @@
                 <p><strong>Car Name:</strong> <span th:text="${driver.car.name}"></span></p>
                 <p><strong>Car Model:</strong> <span th:text="${driver.car.model}"></span></p>
                 <p><strong>Car No Plate:</strong> <span th:text="${driver.car.noPlate}"></span></p>
-                <p><strong>Car Document:</strong> <span th:text="${driver.car.carDocument}"></span></p>
 
                 <a class="btn text-warning" th:href="@{'/delete/' + ${driver.id}}">Delete</a>
             </div>
